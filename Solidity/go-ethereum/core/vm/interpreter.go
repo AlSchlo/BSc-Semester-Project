@@ -296,6 +296,7 @@ func (in *EVMInterpreter) Run(contract *Contract, input []byte, readOnly bool) (
 			return res, errExecutionReverted
 		case operation.halts:
 			var totalCost uint64
+			var totalOps uint64
 
     			mk := make([]string, len(in.execOpcodes))
 		    	i := 0
@@ -308,9 +309,11 @@ func (in *EVMInterpreter) Run(contract *Contract, input []byte, readOnly bool) (
 		    	for k := range mk {
 				fmt.Println(mk[k], "&", in.execOpcodes[mk[k]], "&", in.opcodeCosts[mk[k]])
 				totalCost += in.opcodeCosts[mk[k]]
+				totalOps += 1
 			}
 
 			fmt.Println("Total gas cost:", totalCost)
+			fmt.Println("Total ops:", totalOps)
 
 			fmt.Println("Total memory expansions:", nbExpansions)
 			fmt.Println("Total memory:", mem.Len())
