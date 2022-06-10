@@ -309,7 +309,7 @@ func (in *EVMInterpreter) Run(contract *Contract, input []byte, readOnly bool) (
 		    	for k := range mk {
 				fmt.Println(mk[k], "&", in.execOpcodes[mk[k]], "&", in.opcodeCosts[mk[k]])
 				totalCost += in.opcodeCosts[mk[k]]
-				totalOps += 1
+				totalOps += in.execOpcodes[mk[k]]
 			}
 
 			fmt.Println("Total gas cost:", totalCost)
