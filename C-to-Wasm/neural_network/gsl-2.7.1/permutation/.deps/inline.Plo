@@ -1,0 +1,59 @@
+inline.lo: inline.c ../config.h ../gsl/gsl_errno.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
+  /home/alexis/emsdk/upstream/lib/clang/15.0.0/include/stddef.h \
+  /home/alexis/emsdk/upstream/lib/clang/15.0.0/include/__stddef_max_align_t.h \
+  /home/alexis/emsdk/upstream/lib/clang/15.0.0/include/stdint.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/errno.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/bits/errno.h \
+  ../gsl/gsl_types.h ../build.h ../gsl/gsl_permutation.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/alloca.h \
+  ../gsl/gsl_inline.h ../gsl/gsl_check_range.h
+
+../config.h:
+
+../gsl/gsl_errno.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/stdio.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h:
+
+/home/alexis/emsdk/upstream/lib/clang/15.0.0/include/stddef.h:
+
+/home/alexis/emsdk/upstream/lib/clang/15.0.0/include/__stddef_max_align_t.h:
+
+/home/alexis/emsdk/upstream/lib/clang/15.0.0/include/stdint.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/stdint.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/features.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/errno.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/bits/errno.h:
+
+../gsl/gsl_types.h:
+
+../build.h:
+
+../gsl/gsl_permutation.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/alloca.h:
+
+../gsl/gsl_inline.h:
+
+../gsl/gsl_check_range.h:

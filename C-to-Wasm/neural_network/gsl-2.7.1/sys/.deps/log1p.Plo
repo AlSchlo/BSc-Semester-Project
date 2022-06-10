@@ -1,0 +1,18 @@
+log1p.lo: log1p.c ../config.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/compat/math.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/math.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  ../gsl/gsl_sys.h
+
+../config.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/compat/math.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/math.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/features.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h:
+
+../gsl/gsl_sys.h:

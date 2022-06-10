@@ -1,0 +1,71 @@
+dwt.lo: dwt.c ../config.h ../gsl/gsl_errno.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
+  /home/alexis/emsdk/upstream/lib/clang/15.0.0/include/stddef.h \
+  /home/alexis/emsdk/upstream/lib/clang/15.0.0/include/__stddef_max_align_t.h \
+  /home/alexis/emsdk/upstream/lib/clang/15.0.0/include/stdint.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/errno.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/bits/errno.h \
+  ../gsl/gsl_types.h ../gsl/gsl_wavelet.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/alloca.h \
+  ../gsl/gsl_wavelet2d.h ../gsl/gsl_vector_double.h ../gsl/gsl_inline.h \
+  ../gsl/gsl_check_range.h ../gsl/gsl_block_double.h \
+  ../gsl/gsl_matrix_double.h ../gsl/gsl_blas_types.h ../gsl/gsl_cblas.h
+
+../config.h:
+
+../gsl/gsl_errno.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/stdio.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h:
+
+/home/alexis/emsdk/upstream/lib/clang/15.0.0/include/stddef.h:
+
+/home/alexis/emsdk/upstream/lib/clang/15.0.0/include/__stddef_max_align_t.h:
+
+/home/alexis/emsdk/upstream/lib/clang/15.0.0/include/stdint.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/stdint.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/features.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/errno.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/bits/errno.h:
+
+../gsl/gsl_types.h:
+
+../gsl/gsl_wavelet.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/alloca.h:
+
+../gsl/gsl_wavelet2d.h:
+
+../gsl/gsl_vector_double.h:
+
+../gsl/gsl_inline.h:
+
+../gsl/gsl_check_range.h:
+
+../gsl/gsl_block_double.h:
+
+../gsl/gsl_matrix_double.h:
+
+../gsl/gsl_blas_types.h:
+
+../gsl/gsl_cblas.h:

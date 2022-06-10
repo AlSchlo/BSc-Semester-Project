@@ -1,0 +1,38 @@
+prec.lo: prec.c ../config.h ../gsl/gsl_machine.h \
+  /home/alexis/emsdk/upstream/lib/clang/15.0.0/include/limits.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/limits.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/bits/limits.h \
+  /home/alexis/emsdk/upstream/lib/clang/15.0.0/include/float.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/float.h \
+  ../build.h ../gsl/gsl_precision.h ../gsl/gsl_types.h ../gsl/gsl_mode.h \
+  ../gsl/gsl_inline.h
+
+../config.h:
+
+../gsl/gsl_machine.h:
+
+/home/alexis/emsdk/upstream/lib/clang/15.0.0/include/limits.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/limits.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/features.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/bits/limits.h:
+
+/home/alexis/emsdk/upstream/lib/clang/15.0.0/include/float.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/float.h:
+
+../build.h:
+
+../gsl/gsl_precision.h:
+
+../gsl/gsl_types.h:
+
+../gsl/gsl_mode.h:
+
+../gsl/gsl_inline.h:

@@ -1,0 +1,302 @@
+permute.lo: permute.c ../config.h ../gsl/gsl_errno.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
+  /home/alexis/emsdk/upstream/lib/clang/15.0.0/include/stddef.h \
+  /home/alexis/emsdk/upstream/lib/clang/15.0.0/include/__stddef_max_align_t.h \
+  /home/alexis/emsdk/upstream/lib/clang/15.0.0/include/stdint.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/errno.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/bits/errno.h \
+  ../gsl/gsl_types.h ../gsl/gsl_vector.h \
+  ../gsl/gsl_vector_complex_long_double.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/alloca.h \
+  ../gsl/gsl_complex.h ../gsl/gsl_check_range.h \
+  ../gsl/gsl_vector_long_double.h ../gsl/gsl_inline.h \
+  ../gsl/gsl_block_long_double.h ../gsl/gsl_vector_complex.h \
+  ../gsl/gsl_block_complex_long_double.h \
+  ../gsl/gsl_vector_complex_double.h ../gsl/gsl_vector_double.h \
+  ../gsl/gsl_block_double.h ../gsl/gsl_block_complex_double.h \
+  ../gsl/gsl_vector_complex_float.h ../gsl/gsl_vector_float.h \
+  ../gsl/gsl_block_float.h ../gsl/gsl_block_complex_float.h \
+  ../gsl/gsl_vector_ulong.h ../gsl/gsl_block_ulong.h \
+  ../gsl/gsl_vector_long.h ../gsl/gsl_block_long.h \
+  ../gsl/gsl_vector_uint.h ../gsl/gsl_block_uint.h \
+  ../gsl/gsl_vector_int.h ../gsl/gsl_block_int.h \
+  ../gsl/gsl_vector_ushort.h ../gsl/gsl_block_ushort.h \
+  ../gsl/gsl_vector_short.h ../gsl/gsl_block_short.h \
+  ../gsl/gsl_vector_uchar.h ../gsl/gsl_block_uchar.h \
+  ../gsl/gsl_vector_char.h ../gsl/gsl_block_char.h ../gsl/gsl_matrix.h \
+  ../gsl/gsl_matrix_complex_long_double.h ../gsl/gsl_blas_types.h \
+  ../gsl/gsl_cblas.h ../gsl/gsl_matrix_complex_double.h \
+  ../gsl/gsl_matrix_complex_float.h ../gsl/gsl_matrix_long_double.h \
+  ../gsl/gsl_matrix_double.h ../gsl/gsl_matrix_float.h \
+  ../gsl/gsl_matrix_ulong.h ../gsl/gsl_matrix_long.h \
+  ../gsl/gsl_matrix_uint.h ../gsl/gsl_matrix_int.h \
+  ../gsl/gsl_matrix_ushort.h ../gsl/gsl_matrix_short.h \
+  ../gsl/gsl_matrix_uchar.h ../gsl/gsl_matrix_char.h \
+  ../gsl/gsl_permute.h ../gsl/gsl_permute_complex_long_double.h \
+  ../gsl/gsl_permutation.h ../gsl/gsl_permute_complex_double.h \
+  ../gsl/gsl_permute_complex_float.h ../gsl/gsl_permute_long_double.h \
+  ../gsl/gsl_permute_double.h ../gsl/gsl_permute_float.h \
+  ../gsl/gsl_permute_ulong.h ../gsl/gsl_permute_long.h \
+  ../gsl/gsl_permute_uint.h ../gsl/gsl_permute_int.h \
+  ../gsl/gsl_permute_ushort.h ../gsl/gsl_permute_short.h \
+  ../gsl/gsl_permute_uchar.h ../gsl/gsl_permute_char.h \
+  ../gsl/gsl_permute_vector.h \
+  ../gsl/gsl_permute_vector_complex_long_double.h \
+  ../gsl/gsl_permute_vector_complex_double.h \
+  ../gsl/gsl_permute_vector_complex_float.h \
+  ../gsl/gsl_permute_vector_long_double.h \
+  ../gsl/gsl_permute_vector_double.h ../gsl/gsl_permute_vector_float.h \
+  ../gsl/gsl_permute_vector_ulong.h ../gsl/gsl_permute_vector_long.h \
+  ../gsl/gsl_permute_vector_uint.h ../gsl/gsl_permute_vector_int.h \
+  ../gsl/gsl_permute_vector_ushort.h ../gsl/gsl_permute_vector_short.h \
+  ../gsl/gsl_permute_vector_uchar.h ../gsl/gsl_permute_vector_char.h \
+  ../gsl/gsl_permute_matrix.h \
+  ../gsl/gsl_permute_matrix_complex_long_double.h \
+  ../gsl/gsl_permute_matrix_complex_double.h \
+  ../gsl/gsl_permute_matrix_complex_float.h \
+  ../gsl/gsl_permute_matrix_long_double.h \
+  ../gsl/gsl_permute_matrix_double.h ../gsl/gsl_permute_matrix_float.h \
+  ../gsl/gsl_permute_matrix_ulong.h ../gsl/gsl_permute_matrix_long.h \
+  ../gsl/gsl_permute_matrix_uint.h ../gsl/gsl_permute_matrix_int.h \
+  ../gsl/gsl_permute_matrix_ushort.h ../gsl/gsl_permute_matrix_short.h \
+  ../gsl/gsl_permute_matrix_uchar.h ../gsl/gsl_permute_matrix_char.h \
+  ../templates_on.h permute_source.c ../templates_off.h
+
+../config.h:
+
+../gsl/gsl_errno.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/stdio.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h:
+
+/home/alexis/emsdk/upstream/lib/clang/15.0.0/include/stddef.h:
+
+/home/alexis/emsdk/upstream/lib/clang/15.0.0/include/__stddef_max_align_t.h:
+
+/home/alexis/emsdk/upstream/lib/clang/15.0.0/include/stdint.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/stdint.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/features.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/errno.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/bits/errno.h:
+
+../gsl/gsl_types.h:
+
+../gsl/gsl_vector.h:
+
+../gsl/gsl_vector_complex_long_double.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/alloca.h:
+
+../gsl/gsl_complex.h:
+
+../gsl/gsl_check_range.h:
+
+../gsl/gsl_vector_long_double.h:
+
+../gsl/gsl_inline.h:
+
+../gsl/gsl_block_long_double.h:
+
+../gsl/gsl_vector_complex.h:
+
+../gsl/gsl_block_complex_long_double.h:
+
+../gsl/gsl_vector_complex_double.h:
+
+../gsl/gsl_vector_double.h:
+
+../gsl/gsl_block_double.h:
+
+../gsl/gsl_block_complex_double.h:
+
+../gsl/gsl_vector_complex_float.h:
+
+../gsl/gsl_vector_float.h:
+
+../gsl/gsl_block_float.h:
+
+../gsl/gsl_block_complex_float.h:
+
+../gsl/gsl_vector_ulong.h:
+
+../gsl/gsl_block_ulong.h:
+
+../gsl/gsl_vector_long.h:
+
+../gsl/gsl_block_long.h:
+
+../gsl/gsl_vector_uint.h:
+
+../gsl/gsl_block_uint.h:
+
+../gsl/gsl_vector_int.h:
+
+../gsl/gsl_block_int.h:
+
+../gsl/gsl_vector_ushort.h:
+
+../gsl/gsl_block_ushort.h:
+
+../gsl/gsl_vector_short.h:
+
+../gsl/gsl_block_short.h:
+
+../gsl/gsl_vector_uchar.h:
+
+../gsl/gsl_block_uchar.h:
+
+../gsl/gsl_vector_char.h:
+
+../gsl/gsl_block_char.h:
+
+../gsl/gsl_matrix.h:
+
+../gsl/gsl_matrix_complex_long_double.h:
+
+../gsl/gsl_blas_types.h:
+
+../gsl/gsl_cblas.h:
+
+../gsl/gsl_matrix_complex_double.h:
+
+../gsl/gsl_matrix_complex_float.h:
+
+../gsl/gsl_matrix_long_double.h:
+
+../gsl/gsl_matrix_double.h:
+
+../gsl/gsl_matrix_float.h:
+
+../gsl/gsl_matrix_ulong.h:
+
+../gsl/gsl_matrix_long.h:
+
+../gsl/gsl_matrix_uint.h:
+
+../gsl/gsl_matrix_int.h:
+
+../gsl/gsl_matrix_ushort.h:
+
+../gsl/gsl_matrix_short.h:
+
+../gsl/gsl_matrix_uchar.h:
+
+../gsl/gsl_matrix_char.h:
+
+../gsl/gsl_permute.h:
+
+../gsl/gsl_permute_complex_long_double.h:
+
+../gsl/gsl_permutation.h:
+
+../gsl/gsl_permute_complex_double.h:
+
+../gsl/gsl_permute_complex_float.h:
+
+../gsl/gsl_permute_long_double.h:
+
+../gsl/gsl_permute_double.h:
+
+../gsl/gsl_permute_float.h:
+
+../gsl/gsl_permute_ulong.h:
+
+../gsl/gsl_permute_long.h:
+
+../gsl/gsl_permute_uint.h:
+
+../gsl/gsl_permute_int.h:
+
+../gsl/gsl_permute_ushort.h:
+
+../gsl/gsl_permute_short.h:
+
+../gsl/gsl_permute_uchar.h:
+
+../gsl/gsl_permute_char.h:
+
+../gsl/gsl_permute_vector.h:
+
+../gsl/gsl_permute_vector_complex_long_double.h:
+
+../gsl/gsl_permute_vector_complex_double.h:
+
+../gsl/gsl_permute_vector_complex_float.h:
+
+../gsl/gsl_permute_vector_long_double.h:
+
+../gsl/gsl_permute_vector_double.h:
+
+../gsl/gsl_permute_vector_float.h:
+
+../gsl/gsl_permute_vector_ulong.h:
+
+../gsl/gsl_permute_vector_long.h:
+
+../gsl/gsl_permute_vector_uint.h:
+
+../gsl/gsl_permute_vector_int.h:
+
+../gsl/gsl_permute_vector_ushort.h:
+
+../gsl/gsl_permute_vector_short.h:
+
+../gsl/gsl_permute_vector_uchar.h:
+
+../gsl/gsl_permute_vector_char.h:
+
+../gsl/gsl_permute_matrix.h:
+
+../gsl/gsl_permute_matrix_complex_long_double.h:
+
+../gsl/gsl_permute_matrix_complex_double.h:
+
+../gsl/gsl_permute_matrix_complex_float.h:
+
+../gsl/gsl_permute_matrix_long_double.h:
+
+../gsl/gsl_permute_matrix_double.h:
+
+../gsl/gsl_permute_matrix_float.h:
+
+../gsl/gsl_permute_matrix_ulong.h:
+
+../gsl/gsl_permute_matrix_long.h:
+
+../gsl/gsl_permute_matrix_uint.h:
+
+../gsl/gsl_permute_matrix_int.h:
+
+../gsl/gsl_permute_matrix_ushort.h:
+
+../gsl/gsl_permute_matrix_short.h:
+
+../gsl/gsl_permute_matrix_uchar.h:
+
+../gsl/gsl_permute_matrix_char.h:
+
+../templates_on.h:
+
+permute_source.c:
+
+../templates_off.h:

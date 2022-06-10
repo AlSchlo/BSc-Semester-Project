@@ -1,0 +1,47 @@
+make_rep.lo: make_rep.c ../config.h ../gsl/gsl_ieee_utils.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/stdio.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h \
+  /home/alexis/emsdk/upstream/lib/clang/15.0.0/include/stddef.h \
+  /home/alexis/emsdk/upstream/lib/clang/15.0.0/include/__stddef_max_align_t.h \
+  /home/alexis/emsdk/upstream/lib/clang/15.0.0/include/stdint.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/stdint.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  endian.c \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/alloca.h \
+  standardize.c
+
+../config.h:
+
+../gsl/gsl_ieee_utils.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/stdio.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/wasi/api.h:
+
+/home/alexis/emsdk/upstream/lib/clang/15.0.0/include/stddef.h:
+
+/home/alexis/emsdk/upstream/lib/clang/15.0.0/include/__stddef_max_align_t.h:
+
+/home/alexis/emsdk/upstream/lib/clang/15.0.0/include/stdint.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/stdint.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/bits/stdint.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/features.h:
+
+endian.c:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/alloca.h:
+
+standardize.c:

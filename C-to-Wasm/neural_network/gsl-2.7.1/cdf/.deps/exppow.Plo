@@ -1,0 +1,22 @@
+exppow.lo: exppow.c ../config.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/compat/math.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/math.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  ../gsl/gsl_cdf.h ../gsl/gsl_sf_gamma.h ../gsl/gsl_sf_result.h
+
+../config.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/compat/math.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/math.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/features.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h:
+
+../gsl/gsl_cdf.h:
+
+../gsl/gsl_sf_gamma.h:
+
+../gsl/gsl_sf_result.h:

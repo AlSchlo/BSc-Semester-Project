@@ -1,0 +1,3 @@
+Benchmark               Mode  Cnt            Score            Error  Units
+Simulation.mnistTrain   avgt   10  40088523792.200 ± 1856522686.329  ns/op
+Simulation.mnistVerify  avgt   10     37427415.703 ±    2085604.740  ns/op

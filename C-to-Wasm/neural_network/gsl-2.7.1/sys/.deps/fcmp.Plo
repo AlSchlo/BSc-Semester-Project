@@ -1,0 +1,17 @@
+fcmp.lo: fcmp.c ../config.h ../gsl/gsl_sys.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/compat/math.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/math.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h
+
+../config.h:
+
+../gsl/gsl_sys.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/compat/math.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/math.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/features.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h:

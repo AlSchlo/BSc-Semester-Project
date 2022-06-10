@@ -1,0 +1,62 @@
+drotm.lo: drotm.c ../gsl/gsl_math.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/compat/math.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/math.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  ../gsl/gsl_sys.h ../gsl/gsl_inline.h ../gsl/gsl_machine.h \
+  /home/alexis/emsdk/upstream/lib/clang/15.0.0/include/limits.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/limits.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/bits/limits.h \
+  /home/alexis/emsdk/upstream/lib/clang/15.0.0/include/float.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/float.h \
+  ../gsl/gsl_precision.h ../gsl/gsl_types.h ../gsl/gsl_nan.h \
+  ../gsl/gsl_pow_int.h ../gsl/gsl_minmax.h ../gsl/gsl_cblas.h \
+  /home/alexis/emsdk/upstream/lib/clang/15.0.0/include/stddef.h \
+  /home/alexis/emsdk/upstream/lib/clang/15.0.0/include/__stddef_max_align_t.h \
+  cblas.h source_rotm.h
+
+../gsl/gsl_math.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/compat/math.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/math.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/features.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h:
+
+../gsl/gsl_sys.h:
+
+../gsl/gsl_inline.h:
+
+../gsl/gsl_machine.h:
+
+/home/alexis/emsdk/upstream/lib/clang/15.0.0/include/limits.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/limits.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/bits/limits.h:
+
+/home/alexis/emsdk/upstream/lib/clang/15.0.0/include/float.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/float.h:
+
+../gsl/gsl_precision.h:
+
+../gsl/gsl_types.h:
+
+../gsl/gsl_nan.h:
+
+../gsl/gsl_pow_int.h:
+
+../gsl/gsl_minmax.h:
+
+../gsl/gsl_cblas.h:
+
+/home/alexis/emsdk/upstream/lib/clang/15.0.0/include/stddef.h:
+
+/home/alexis/emsdk/upstream/lib/clang/15.0.0/include/__stddef_max_align_t.h:
+
+cblas.h:
+
+source_rotm.h:

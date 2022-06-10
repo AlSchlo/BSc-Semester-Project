@@ -1,0 +1,32 @@
+solve_quadratic.lo: solve_quadratic.c ../config.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/compat/math.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/math.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/features.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h \
+  ../gsl/gsl_poly.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h \
+  /home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/alloca.h \
+  ../gsl/gsl_inline.h ../gsl/gsl_complex.h
+
+../config.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/compat/math.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/math.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/features.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/bits/alltypes.h:
+
+../gsl/gsl_poly.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/compat/stdlib.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/stdlib.h:
+
+/home/alexis/emsdk/upstream/emscripten/cache/sysroot/include/alloca.h:
+
+../gsl/gsl_inline.h:
+
+../gsl/gsl_complex.h:
