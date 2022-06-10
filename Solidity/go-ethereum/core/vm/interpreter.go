@@ -296,7 +296,7 @@ func (in *EVMInterpreter) Run(contract *Contract, input []byte, readOnly bool) (
 			return res, errExecutionReverted
 		case operation.halts:
 			var totalCost uint64
-			var totalOps uint64
+			var totalOps int
 
     			mk := make([]string, len(in.execOpcodes))
 		    	i := 0
