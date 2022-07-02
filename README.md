@@ -1,6 +1,6 @@
 <h1 align="center">
  <br />
-   <img src="EPFL.png" width="150">  <br />
+   <img src="EPFL.png" width="200">  <br />
  <br />
 </h1>
 
@@ -9,7 +9,7 @@
     <br />
     <font size="5"> Numerically-Intensive Deterministic Smart Contracts <br /></font>
     <br />
-    <font size="4">School of Computer and Communication Sciences<br />
+    <font size="3">School of Computer and Communication Sciences<br />
     Decentralized and Distributed Systems Lab <br />
     BSc Semester Project <br />  
     <br />
@@ -17,8 +17,6 @@
     <br />
     <br />
 </h2>
-
------
 
 <br />
 <p align="center">
