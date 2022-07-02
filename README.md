@@ -74,9 +74,9 @@ cd bsol/ && sh install.sh && cd .. && bsol --sol path-to-file --execution-time -
 
 **Note:** For this last step to run our instrumented version of *Geth* and not the original one, you can replace the *Geth* directory content located at /go/pkg/mod/github.com/ethereum (on your machine) with the content of Solidity/go-ethereum.
 
-Although not very clean, this solution is quick and easy. You are free to create a new package and change the import directives in the Go source code.
+Although not very clean, this solution is quick and easy. You are free to create a new package and change the import directives.
 
-You can modify the constants present in the benchmarking source code to set the desired benchmarking parameters.
+You can modify the constants present in the benchmarking code to set the desired benchmarking parameters.
 
 ## WASM
 
