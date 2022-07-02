@@ -9,12 +9,11 @@
     <br />
     <font size="5"> Numerically-Intensive Deterministic Smart Contracts <br /></font>
     <br />
-    <font size="3">School of Computer and Communication Sciences<br />
+    <sub>School of Computer and Communication Sciences<br />
     Decentralized and Distributed Systems Lab <br />
     BSc Semester Project <br />  
     <br />
-    June 2022</font>  
-    <br />
+    June 2022</sub> 
     <br />
 </h2>
 
@@ -28,7 +27,7 @@
 
 # Presentation
 
-This project studies *two* smart contract applications and compares their implementation on *three* execution platforms in terms of **efficiency** and **ease of programming**.
+This project studies *two* smart contract applications and compares their implementation on *three* different execution platforms in terms of **efficiency** and **ease of programming**.
 
 You can read our full report [here](Project-Report.pdf) for more details. This project was realized in the context of a BSc semester project in the DEDIS laboratory at EPFL.
 
@@ -38,7 +37,7 @@ The following applications were chosen as they encompass a *wide* range of commo
 
 ### 1. Revenue Distribution
 
-A generic and flexible version of a revenue distribution application. We present the default naive implementation of such problem as well as a more sophisticated optimized approach. You can check out [this](optimized-revenue-distribution.pdf) for more details.
+A generic and flexible version of a revenue distribution application. We present the default naive implementation of such problem as well as a more sophisticated optimized approach. You can check out [this paper](optimized-revenue-distribution.pdf) for more details.
 
 ### 2. Neural Network
 
@@ -58,11 +57,11 @@ You can follow these steps to reproduce our results on every execution environme
 
 ## JVM
 
-Maven should take car of all dependencies. Benchmarks can be instrumented to select what application to run, using the *JMH* framework.
+*Maven* should take car of all dependencies. Benchmarks can be instrumented to select what application to run, using the *JMH* framework.
 
 ## EVM
 
-We used the **0.7.0** version of Solidity compiler (solc). You can run the following commands to benchmark and test our applications.
+We used the **0.7.0** version of *Solidity* compiler (solc). You can run the following commands to benchmark and test our applications.
 
 ```sh
 pip3 install solc-select
@@ -72,7 +71,7 @@ cd path-to-Solidity-dir
 cd bsol/ && sh install.sh && cd .. && bsol --sol path-to-file --execution-time --runs 1
 ```
 
-<u>Note:</u> For this last step to run our instrumented version of *Geth* and not the original one, you can replace the *Geth* directory content located at /go/pkg/mod/github.com/ethereum (on your machine) with the content of Solidity/go-ethereum.
+**Note:** For this last step to run our instrumented version of *Geth* and not the original one, you can replace the *Geth* directory content located at /go/pkg/mod/github.com/ethereum (on your machine) with the content of Solidity/go-ethereum.
 
 Although not very clean, this solution is quick and easy. You are free to create a new package and change the import directives in the Go source code.
 
